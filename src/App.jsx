@@ -1,11 +1,30 @@
+import { DarkModeProvider } from "./components/DarkModeContext"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import About from "./sections/About"
+import Clients from "./sections/Clients"
+import Contact from "./sections/Contact"
+import Hero from "./sections/Hero"
+import Popular from "./sections/Popular"
+import Properties from "./sections/Properties"
+import Services from "./sections/Services"
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-yellow-400'>Daniel Cipriano Mussenoho</h1>
-      <h2 className='bg-yellow-400'>WELCOME TO PROGRAMMING WORLD!</h2>
-    </>
+      <DarkModeProvider>
+        <Header  />
+        <Hero />
+        <About/>
+        <Popular/>
+        <Properties/>
+        <Services/>
+        <Clients />
+        <Contact/>
+        <Footer />
+      </DarkModeProvider>
+      </>
   )
 }
 
