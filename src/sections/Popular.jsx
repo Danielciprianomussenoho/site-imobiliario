@@ -41,17 +41,17 @@ const Popular = () => {
 
           <div data-aos="slide-up" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
             <h1 className='text-black text-7xl font-semibold dark:text-white'>5K</h1>
-            <h1>ACTIVE <br />LISTINGS</h1>
+            <h1 className='dark:text-white'>ACTIVE <br />LISTINGS</h1>
           </div>
 
           <div data-aos="slide-up" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
             <h1 className='text-black text-7xl font-semibold dark:text-white'>9K</h1>
-            <h1>SOLID <br />LISTINGS</h1>
+            <h1 className='dark:text-white'>SOLID <br />LISTINGS</h1>
           </div>
 
           <div data-aos="slide-up" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
             <h1 className='text-black text-7xl font-semibold dark:text-white'>6K</h1>
-            <h1>CLIENTS <br />WE´VE SERVED</h1>
+            <h1 className='dark:text-white'>CLIENTS <br />WE´VE SERVED</h1>
           </div>
          
         </div>
